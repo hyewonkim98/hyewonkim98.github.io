@@ -1106,7 +1106,7 @@ figcaption {
 }
 
 .portfolio-section {
-  position: relative;
+  position: static;
   z-index: 10;
   overflow: hidden;
   width: 100%;
@@ -1419,8 +1419,8 @@ figcaption {
 .about-me-section {
   position: static;
   top: 0px;
-  padding-top: 2.5vw;
-  padding-bottom: 8vw;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
   background-color: #f5f5f5;
 }
 
@@ -1514,14 +1514,14 @@ figcaption {
 }
 
 .section-under {
-  position: relative;
+  position: static;
   z-index: 2;
   margin-top: -100vh;
 }
 
 .min-height {
   position: relative;
-  min-height: 245em;
+  min-height: 240em;
 }
 
 .sticky {
@@ -1532,13 +1532,13 @@ figcaption {
 }
 
 .whitesmoke-block {
-  position: relative;
+  position: static;
   z-index: 10;
   background-color: #fff;
 }
 
 .layout {
-  position: relative;
+  position: static;
   z-index: 1;
 }
 
@@ -1651,7 +1651,7 @@ figcaption {
 
 .about-me-container {
   display: block;
-  margin-top: 2vw;
+  margin-top: 0vw;
   margin-bottom: 0vw;
   grid-auto-columns: 1fr;
   -ms-grid-columns: 1fr 1fr;
@@ -1676,7 +1676,7 @@ figcaption {
 }
 
 .paragraph-2 {
-  margin-top: 5vw;
+  margin-top: 8vw;
   margin-bottom: 5vw;
   padding-top: 0vw;
   padding-bottom: 0vw;
