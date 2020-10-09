@@ -1408,7 +1408,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   padding-top: 24vw;
-  padding-bottom: 19vw;
+  padding-bottom: 24vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1776,27 +1776,10 @@ figcaption {
 .text-block-11 {
   display: inline-block;
   padding-right: 2vw;
-  padding-left: 2vw;
+  padding-left: 0vw;
   font-family: Plusjakartadisplay, sans-serif;
-  color: #000;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.3em;
-}
-
-.div-block-14 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 3vw;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -2066,9 +2049,6 @@ figcaption {
   }
   .text-block-9 {
     font-size: 1.5em;
-  }
-  .text-block-11 {
-    font-size: 0.7em;
   }
 }
 
@@ -2429,8 +2409,8 @@ figcaption {
     font-size: 0.9em;
   }
   .paragraph {
-    padding-right: 5vw;
-    padding-left: 5vw;
+    padding-right: 10px;
+    padding-left: 10px;
     font-size: 0.5em;
   }
   .div-block-6 {
@@ -2481,8 +2461,8 @@ figcaption {
     width: 4.2vw;
   }
   .footer-text {
-    padding-right: 5vw;
-    padding-left: 5vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
     font-size: 0.6em;
   }
   .paragraph-2 {
@@ -2504,9 +2484,6 @@ figcaption {
   }
   .text-block-10 {
     font-size: 0.7em;
-  }
-  .text-block-11 {
-    font-size: 0.5em;
   }
 }
 
