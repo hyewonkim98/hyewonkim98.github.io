@@ -2264,7 +2264,7 @@ figcaption {
     padding-left: 2vw;
   }
   .social-icons-div {
-    padding-top: 1em;
+    padding-top: 2vw;
   }
   .resume-link-block {
     padding-right: 2vw;
@@ -2436,6 +2436,9 @@ figcaption {
     padding-bottom: 1em;
     padding-left: 6em;
   }
+  .footer-div {
+    padding-bottom: 18vw;
+  }
   .about-me-text {
     padding-right: 0em;
     padding-left: 0em;
@@ -2455,7 +2458,14 @@ figcaption {
     min-height: 170em;
   }
   .social-icons-div {
-    padding-top: 1em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2vw;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .image-6 {
     width: 4.2vw;
