@@ -1975,6 +1975,7 @@ figcaption {
     line-height: 1em;
   }
   .value-grid {
+    margin-bottom: 2.5em;
     padding-right: 20vw;
     padding-left: 20vw;
   }
@@ -2208,6 +2209,9 @@ figcaption {
   .paragraph {
     font-size: 0.6em;
   }
+  .value-grid {
+    margin-bottom: 2em;
+  }
   .value-heading {
     font-size: 0.9em;
   }
@@ -2239,7 +2243,7 @@ figcaption {
     padding-left: 2vw;
   }
   .social-icons-div {
-    padding-top: 4vw;
+    padding-top: 1em;
   }
   .resume-link-block {
     padding-right: 2vw;
@@ -2391,6 +2395,9 @@ figcaption {
   .div-block-6 {
     max-width: 500px;
   }
+  .value-grid {
+    margin-bottom: 1.5em;
+  }
   .value-card {
     max-width: 100%;
     margin-bottom: 0vw;
@@ -2427,7 +2434,7 @@ figcaption {
     min-height: 170em;
   }
   .social-icons-div {
-    padding-top: 4vw;
+    padding-top: 1em;
   }
   .image-6 {
     width: 4.2vw;
@@ -2438,6 +2445,7 @@ figcaption {
     font-size: 0.6em;
   }
   .paragraph-2 {
+    margin-top: 15vw;
     font-size: 0.5em;
   }
   .about-me-description {
