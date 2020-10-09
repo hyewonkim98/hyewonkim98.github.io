@@ -1782,6 +1782,11 @@ figcaption {
   letter-spacing: 0.3em;
 }
 
+.div-block-14 {
+  padding-top: 21vw;
+  padding-bottom: 20vw;
+}
+
 @media screen and (max-width: 991px) {
   .styleguide-block {
     text-align: center;
