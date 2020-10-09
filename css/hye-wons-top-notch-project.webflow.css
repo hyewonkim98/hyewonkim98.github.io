@@ -1403,8 +1403,8 @@ figcaption {
 
 .footer-div {
   position: relative;
-  padding-top: 20vw;
-  padding-bottom: 20vw;
+  padding-top: 24vw;
+  padding-bottom: 19vw;
   background-color: #fff;
 }
 
@@ -2394,18 +2394,19 @@ figcaption {
   .value-card {
     max-width: 100%;
     margin-bottom: 0vw;
-    padding: 2vw 2em;
+    padding: 5vw 2em;
   }
   .value-heading {
     font-size: 0.6em;
   }
   .value-description {
-    padding-bottom: 5vw;
+    padding-bottom: 0vw;
     font-size: 0.6em;
   }
   .about-me-img {
-    padding-right: 4em;
-    padding-left: 4em;
+    padding-right: 6em;
+    padding-bottom: 1em;
+    padding-left: 6em;
   }
   .about-me-text {
     padding-right: 0em;
