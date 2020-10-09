@@ -1431,8 +1431,8 @@ figcaption {
 .about-me-section {
   position: static;
   top: 0px;
-  padding-top: 10vw;
-  padding-bottom: 8vw;
+  padding-top: 22vw;
+  padding-bottom: 20vw;
   background-color: #f5f5f5;
 }
 
@@ -1782,8 +1782,10 @@ figcaption {
   letter-spacing: 0.3em;
 }
 
-.div-block-14 {
-  padding-top: 21vw;
+.footer {
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  padding-top: 22vw;
   padding-bottom: 20vw;
 }
 
