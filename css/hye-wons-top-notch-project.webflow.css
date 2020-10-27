@@ -518,7 +518,8 @@ figcaption {
   margin-left: 100px;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  grid-template-areas: ". . ." ". . .";
+  grid-template-areas: ". . ."
+    ". . .";
   -ms-grid-columns: 1.5fr 30px 1fr 30px 1.5fr;
   grid-template-columns: 1.5fr 1fr 1.5fr;
   -ms-grid-rows: auto 30px auto;
@@ -836,7 +837,8 @@ figcaption {
   margin-bottom: 110px;
   grid-column-gap: 80px;
   grid-row-gap: 20px;
-  grid-template-areas: ". ." ". .";
+  grid-template-areas: ". ."
+    ". .";
   -ms-grid-rows: auto 20px auto;
   grid-template-rows: auto auto;
 }
@@ -868,7 +870,8 @@ figcaption {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   -ms-grid-rows: auto 30px auto;
-  grid-template-areas: ". . . ." ". . . .";
+  grid-template-areas: ". . . ."
+    ". . . .";
   -ms-grid-columns: 1fr 30px 1fr 30px 1fr 30px 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -878,7 +881,8 @@ figcaption {
   margin-bottom: 135px;
   grid-column-gap: 50px;
   grid-row-gap: 100px;
-  grid-template-areas: ". . . ." ". . . .";
+  grid-template-areas: ". . . ."
+    ". . . .";
   -ms-grid-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto 100px auto;
@@ -1805,63 +1809,79 @@ figcaption {
   .styleguide-block {
     text-align: center;
   }
+
   .heading-jumbo {
     font-size: 2em;
     line-height: 70px;
   }
+
   .intro-section.cc-contact {
     padding-right: 0px;
     padding-left: 0px;
   }
+
   .button {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .logo-link.w--current {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
+
   .menu-icon {
     display: block;
   }
+
   .navigation-item {
     padding: 15px 30px;
     -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
     transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
     text-align: center;
   }
+
   .navigation-item:hover {
     background-color: #f7f8f9;
   }
+
   .navigation-item:active {
     background-color: #eef0f3;
   }
+
   .navigation-items {
     background-color: #fff;
   }
+
   .navigation {
     padding: 25px 30px;
   }
+
   .menu-button {
     padding: 0px;
   }
+
   .menu-button.w--open {
     background-color: transparent;
   }
+
   .navigation-wrap {
     margin-right: 0px;
   }
+
   .work-experience-grid {
-    grid-template-areas: ". ." ". .";
+    grid-template-areas: ". ."
+      ". .";
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
+
   .works-grid {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1877,195 +1897,251 @@ figcaption {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
+
   .carrer-headline-wrap {
     width: auto;
   }
+
   .work-image {
     margin-bottom: 30px;
   }
+
   .contact {
     width: auto;
     padding: 30px 50px 40px;
   }
+
   .contact-headline {
     width: 100%;
   }
+
   .contact-form-wrap {
     width: 100%;
   }
+
   .about-intro-grid {
     grid-row-gap: 50px;
-    grid-template-areas: "." ".";
+    grid-template-areas: "."
+      ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto 50px auto;
     grid-template-rows: auto auto;
     text-align: center;
   }
+
   .about-head-text-wrap {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
   }
+
   .service-name-text {
     font-size: 24px;
     line-height: 42px;
   }
+
   .skillset-wrap {
     padding-right: 0px;
   }
+
   .services-items-grid {
     padding-top: 0px;
     grid-row-gap: 0px;
-    grid-template-areas: "." ".";
+    grid-template-areas: "."
+      ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto 0px auto;
     grid-template-rows: auto auto;
   }
+
   .skills-grid {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     grid-row-gap: 50px;
-    grid-template-areas: "." ".";
+    grid-template-areas: "."
+      ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto 50px auto;
     grid-template-rows: auto auto;
     text-align: center;
   }
+
   .personal-features-grid {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    grid-template-areas: "." "." "." ".";
+    grid-template-areas: "."
+      "."
+      "."
+      ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     text-align: center;
   }
+
   .social-media-heading {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
   }
+
   .social-media-grid {
-    grid-template-areas: ". ." ". ." ". ." ". .";
+    grid-template-areas: ". ."
+      ". ."
+      ". ."
+      ". .";
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
   }
+
   .project-overview-grid {
     width: 70%;
     margin-right: auto;
     margin-left: auto;
     grid-row-gap: 50px;
-    grid-template-areas: "." "." ".";
+    grid-template-areas: "."
+      "."
+      ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto 50px auto 50px auto;
     grid-template-rows: auto auto auto;
     text-align: center;
   }
+
   .project-description-grid {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     grid-row-gap: 50px;
-    grid-template-areas: "." ".";
+    grid-template-areas: "."
+      ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto 50px auto;
     grid-template-rows: auto auto;
     text-align: center;
   }
+
   .email-section {
     margin-bottom: 160px;
   }
+
   .email-link {
     font-size: 36px;
     line-height: 54px;
   }
+
   .project-heading {
     font-size: 1em;
   }
+
   .project-description {
     padding-right: 0vw;
     font-size: 0.9em;
   }
+
   .project-tag {
     padding: 0.6em 0.85em;
     font-size: 0.8em;
     line-height: 0.8em;
   }
+
   .portfolio-section {
     padding-right: 10vw;
     padding-left: 10vw;
     font-size: 13px;
   }
+
   .project-thumbnail {
     width: 99.999869%;
   }
+
   .about-me-heading {
     font-size: 1.5em;
     line-height: 1em;
   }
+
   .value-grid {
     margin-bottom: 2.5em;
     padding-right: 20vw;
     padding-left: 20vw;
   }
+
   .value-card {
     padding-top: 4em;
     padding-bottom: 4em;
   }
+
   .value-heading {
     font-size: 1em;
   }
+
   .value-description {
     font-size: 0.9em;
   }
+
   .about-me-img {
     width: 100%;
     padding: 1em 28vw 2em;
   }
+
   .about-me-text {
     font-size: 13px;
     line-height: 2em;
   }
+
   .highlighted-heading {
     font-size: 1.5em;
   }
+
   .intro-heading {
     font-size: 1.5em;
     line-height: 1em;
   }
+
   .intro-second-heading {
     margin-top: auto;
     font-size: 1.5em;
   }
+
   .min-height {
     min-height: 215em;
   }
-  .image-6 {
-    width: 2.4vw;
+
+  .social-icons-div {
+    padding-top: 3vw;
   }
+
+  .image-6 {
+    width: 10vw;
+  }
+
   .footer-text {
     font-size: 0.8em;
   }
+
   .about-me-link-block {
     line-height: 2vw;
   }
+
   .image-7 {
-    width: 3vw;
+    width: 10vw;
   }
+
   .image-8 {
-    width: 3vw;
+    width: 10vw;
   }
+
   .text-block-9 {
     font-size: 1.5em;
   }
@@ -2076,35 +2152,44 @@ figcaption {
     font-size: 30px;
     line-height: 52px;
   }
+
   .rich-text {
     width: 90%;
     max-width: 470px;
     text-align: left;
   }
+
   .heading-container {
     text-align: center;
   }
+
   .heading-jumbo {
     font-size: 2em;
     line-height: 64px;
   }
+
   .intro-section {
     margin-right: 15px;
     margin-left: 15px;
   }
+
   .intro-section.cc-contact {
     padding: 15px;
   }
+
   .paragraph-bigger {
     font-size: 16px;
     line-height: 28px;
   }
+
   .logo-link {
     padding-left: 0px;
   }
+
   .navigation {
     padding: 20px 30px;
   }
+
   .work-experience-grid {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2120,28 +2205,36 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
   }
+
   .work-position-wrap {
     margin-bottom: 40px;
   }
+
   .project-name-link {
     font-size: 16px;
     line-height: 28px;
   }
+
   .text-field.cc-textarea {
     text-align: left;
   }
+
   .contact {
     padding-right: 30px;
     padding-left: 30px;
   }
+
   .contact-form-grid {
     grid-column-gap: 30px;
-    grid-template-areas: "." "." ".";
+    grid-template-areas: "."
+      "."
+      ".";
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto;
     grid-template-rows: auto auto auto;
   }
+
   .contact-form {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2153,9 +2246,11 @@ figcaption {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .contact-form-wrap {
     text-align: left;
   }
+
   .footer-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2164,9 +2259,11 @@ figcaption {
     flex-direction: column;
     text-align: center;
   }
+
   .webflow-link {
     margin-bottom: 15px;
   }
+
   .footer-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2174,138 +2271,174 @@ figcaption {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .footer-item {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 0px;
   }
+
   .about-head-text-wrap {
     width: 70%;
     max-width: 470px;
   }
+
   .skills-grid {
     width: 70%;
     max-width: 470px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .personal-features-grid {
     width: 70%;
     max-width: 470px;
   }
+
   .social-media-heading {
     width: 70%;
     max-width: 470px;
   }
+
   .social-media-grid {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
+
   .project-overview-grid {
     width: 80%;
     max-width: 470px;
     margin-top: 90px;
     margin-bottom: 95px;
   }
+
   .project-description-grid {
     width: 70%;
     max-width: 470px;
     margin-top: 90px;
     margin-bottom: 85px;
   }
+
   .detail-image {
     margin-bottom: 15px;
   }
+
   .email-section {
     width: 80%;
     max-width: 470px;
     margin-top: 120px;
     margin-bottom: 120px;
   }
+
   .email-link {
     font-size: 36px;
     line-height: 54px;
   }
+
   .utility-page-wrap {
     padding: 15px;
   }
+
   ._404-wrap {
     padding: 30px;
   }
+
   .project-heading {
     font-size: 0.8em;
   }
+
   .project-description {
     font-size: 0.8em;
   }
+
   .project-tag {
     font-size: 0.7em;
   }
+
   .about-me-heading {
     font-size: 1em;
   }
+
   .paragraph {
     font-size: 0.6em;
   }
+
   .value-grid {
     margin-bottom: 2em;
   }
+
   .value-heading {
     font-size: 0.9em;
   }
+
   .about-me-img {
     padding-right: 8em;
     padding-left: 8em;
   }
+
   .about-me-text {
     font-size: 0.8em;
   }
+
   .highlighted-heading {
     font-size: 1em;
   }
+
   .intro-heading {
     font-size: 1em;
   }
+
   .intro-second-heading {
     font-size: 1em;
   }
+
   .min-height {
     min-height: 210em;
   }
+
   .email-link-block {
     padding-right: 2vw;
     padding-left: 2vw;
   }
+
   .linkedin-link-block {
     padding-right: 2vw;
     padding-left: 2vw;
   }
+
   .social-icons-div {
-    padding-top: 2vw;
+    padding-top: 3vw;
   }
+
   .resume-link-block {
     padding-right: 2vw;
     padding-left: 2vw;
   }
+
   .image-6 {
-    width: 2.8vw;
+    width: 12vw;
   }
+
   .footer-text {
     font-size: 0.8em;
   }
+
   .paragraph-2 {
     margin-top: 8vw;
     margin-bottom: 8vw;
     font-size: 0.6em;
   }
+
   .image-7 {
-    width: 3.5vw;
+    width: 12vw;
   }
+
   .image-8 {
-    width: 3.5vw;
+    width: 12vw;
   }
+
   .text-block-9 {
     font-size: 1em;
   }
@@ -2316,33 +2449,40 @@ figcaption {
     width: 100%;
     max-width: none;
   }
+
   .heading-jumbo {
     font-size: 1em;
     line-height: 48px;
   }
+
   .paragraph-bigger.cc-bigger-light {
     font-size: 0.8em;
   }
+
   .navigation {
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .menu-button {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+
   .menu-button.w--open {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+
   .contact {
     padding-right: 15px;
     padding-left: 15px;
   }
+
   .contact-form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2350,6 +2490,7 @@ figcaption {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .contact-form-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2357,6 +2498,7 @@ figcaption {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .footer-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2364,32 +2506,39 @@ figcaption {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .about-head-text-wrap {
     width: 100%;
     max-width: none;
   }
+
   .skills-grid {
     width: 100%;
     max-width: none;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .personal-features-grid {
     width: 100%;
     max-width: none;
   }
+
   .social-media-heading {
     width: 100%;
     max-width: none;
   }
+
   .project-overview-grid {
     width: 100%;
     max-width: none;
   }
+
   .project-description-grid {
     width: 100%;
     max-width: none;
   }
+
   .email-section {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2407,110 +2556,138 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
   }
+
   .email-link {
     font-size: 30px;
     line-height: 46px;
   }
+
   .project-heading {
     font-size: 0.5em;
   }
+
   .project-description {
     font-size: 0.6em;
   }
+
   .project-tag {
     font-size: 6px;
   }
+
   .text-block-3 {
     font-size: 2vw;
   }
+
   .about-me-heading {
     margin-bottom: 5vw;
     font-size: 0.9em;
   }
+
   .paragraph {
     padding-right: 10px;
     padding-left: 10px;
     font-size: 0.5em;
   }
+
   .div-block-6 {
     max-width: 500px;
   }
+
   .value-grid {
     margin-bottom: 1.5em;
   }
+
   .value-card {
     max-width: 100%;
     margin-bottom: 0vw;
     padding: 5vw 2em;
   }
+
   .value-heading {
     font-size: 0.6em;
   }
+
   .value-description {
     padding-bottom: 0vw;
     font-size: 0.6em;
   }
+
   .about-me-img {
     padding-right: 6em;
     padding-bottom: 1em;
     padding-left: 6em;
   }
+
   .footer-div {
     padding-bottom: 18vw;
   }
+
   .about-me-text {
     padding-right: 0em;
     padding-left: 0em;
     font-size: 0.7em;
     line-height: 2em;
   }
+
   .highlighted-heading {
     font-size: 0.9em;
   }
+
   .intro-heading {
     font-size: 0.9em;
   }
+
   .intro-second-heading {
     font-size: 0.9em;
   }
+
   .min-height {
     min-height: 170em;
   }
+
   .social-icons-div {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 2vw;
+    padding-top: 3vw;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+
   .image-6 {
-    width: 4.2vw;
+    width: 14vw;
   }
+
   .footer-text {
     padding-right: 3vw;
     padding-left: 3vw;
     font-size: 0.6em;
   }
+
   .paragraph-2 {
     margin-top: 15vw;
     font-size: 0.5em;
   }
+
   .about-me-description {
     padding-right: 8vw;
     padding-left: 8vw;
   }
+
   .image-7 {
-    width: 5vw;
+    width: 14vw;
   }
+
   .image-8 {
-    width: 5vw;
+    width: 14vw;
   }
+
   .text-block-9 {
     font-size: 0.9em;
   }
+
   .text-block-10 {
     font-size: 0.7em;
   }
@@ -2687,12 +2864,14 @@ figcaption {
     -ms-grid-row-align: center;
     align-self: center;
   }
+
   #w-node-facaacd50912-9e479c86 {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
   }
+
   #w-node-ef8a782e4abe-9e479c86 {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
