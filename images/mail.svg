@@ -1,1 +1,14 @@
-<svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#2a2e3b" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0 -1 1 0 2.5 16.5)"><path d="m2 .5h8c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-8c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z"/><path d="m2 6 5 3 5-3" transform="matrix(0 1 -1 0 14.5 .5)"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="348px" height="149px" viewBox="0 0 348 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-281.000000, -661.000000)">
+            <g id="Group" transform="translate(281.000000, 661.000000)">
+                <rect id="Rectangle" stroke="#D4D4D4" stroke-width="2" x="1" y="1" width="346" height="147" rx="32"></rect>
+                <text id="EMAIL" font-family="PlusJakartaText-Light, Plus Jakarta Text" font-size="40" font-weight="300" letter-spacing="16" fill="#858585">
+                    <tspan x="72.8" y="92">EMAIL</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
