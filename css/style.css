@@ -1,3 +1,10 @@
+::selection {
+  background: #51ffa5; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #51ffa5; /* Gecko Browsers */
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
