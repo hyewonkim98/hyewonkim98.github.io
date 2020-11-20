@@ -96,7 +96,7 @@
   margin-left: 10vw;
   padding: 169px 92px;
   border-radius: 50px;
-  background-color: #fff5e9;
+  background-color: #fdfdfd;
   -webkit-transform: translate3d(0px, 0px, 0.001px);
   transform: translate3d(0px, 0px, 0.001px);
   -webkit-transform-style: preserve-3d;
@@ -558,7 +558,7 @@
   margin-left: 0vw;
   padding-left: 0px;
   border-radius: 0px;
-  background-color: #fff;
+  background-color: #fdfdfd;
   font-family: 'Kastelov axiforma', sans-serif;
 }
 
