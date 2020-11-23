@@ -4179,6 +4179,11 @@
 
 .email-link {
   color: #1a1a1a;
+  text-decoration: underline;
+}
+
+.email-big {
+  color: #1a1a1a;
   text-decoration: none;
 }
 
